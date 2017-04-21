@@ -1,0 +1,75 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+/* Variables */
+body {
+  width: 100%;
+  height: 100%;
+  width: 100%;
+  height: 100%;
+  background: url("https://lh3.googleusercontent.com/m2M2miTX_Ieb3IdWTMkv8fOs5hra5JAluih_kK8UCpq0z_EYG_7GwGnFLQ2EUo4CaEzDZEScGnAoDXJ15k6ioPLasnu7BsfNmRot1u4PP1u9aSBfiLyEW5nxXRVss6yc5vTx3pTJoiS7WS05C1WJKGaM_O7Ih1G1Y3QSECFMK8xkF_752rCMfdH35ol95TI-B_q4fPG3HiUy2iO32UBT5rB4Qd_yyCeAhp3E6rz-Qpd31OpRpzPqsPBwyH0tWbFEjeWwZA1kcfgKWlIKg82Usc7v456HhtGUZU9OtqmREg0DuSh-Qyyrj1SFFKgKAsb1-O5_nLrMNyYda0c63POYRgiDuWDIet0gzXbEQf1We0alsmzRUs_ZA4IPKg44O2GaDah6YoNRcqY8OcSqWzGWc2NZ62Y6HBDaHQ96E9nTR4ZojmXNJdBSaN2r5y1hlIyVRig84onJZUm2dBpzYHBiqXtZpb9LyupIKa0MHyG7OuJarYPnJwWcIsJckQJCzVFnAUvljdCylF0VzsIcjkVq5snL5DmdZY0CRmyAGkH5CQqAJMBEnZ9V_BY_En8cZMo3uE_OcpxJC9pzrPeSJa2xTBEEBxZqxtmn36EdwR0uDZk9lwBrO_6O=w494-h661-no") center center no-repeat;
+  background-size: cover; }
+
+.todo {
+  text-align: center;
+  margin-top: 40px;
+  font-family: "Oswald", sans-serif;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column; }
+
+.sexy_field {
+  margin: auto;
+  overflow: hidden;
+  position: relative;
+  height: 50px;
+  width: 300px; }
+
+input {
+  border: none;
+  box-shadow: 0px 3px white, 0px 5px rgba(0, 0, 0, 0.16);
+  color: white;
+  text-shadow: 0px 2px rgba(0, 0, 0, 0.26);
+  background: transparent;
+  outline: none;
+  height: 30px;
+  font-family: "Oswald", sans-serif;
+  width: 300px;
+  transition-property: transform;
+  font-size: 26px; }
+
+button {
+  width: 75px;
+  height: 25px;
+  transform: translate(-50%, -50%);
+  font-size: 14px;
+  background: linear-gradient(to left, yellow, orange);
+  border: none;
+  font-family: "Oswald", sans-serif;
+  color: turquoise;
+  border-radius: 10px;
+  cursor: progress;
+  transition: 0.3s all;
+  margin-top: 28px;
+  position: absolute; }
+
+button:hover {
+  color: black;
+  background: purple;
+  width: 150px;
+  height: 36px;
+  border-radius: 18px;
+  opacity: 0.85; }
+
+.list {
+  margin-top: 45px;
+  text-align: center;
+  list-style: none;
+  position: center;
+  font-family: "Oswald", sans-serif;
+  color: white; }
+
+.footer {
+  text-align: center;
+  font-family: "Oswald", sans-serif;
+  color: white; }
+
+/*# sourceMappingURL=App.css.map */
